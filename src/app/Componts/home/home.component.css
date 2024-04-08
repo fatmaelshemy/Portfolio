@@ -1,0 +1,63 @@
+.myName{
+    color: #f56692;
+}
+.home{
+    margin: 70px 0px;
+}
+.links {
+    margin-top: 20px; /* Add margin to the top of the links */
+}
+
+.links a {
+    color: #f56692; 
+    margin: 0 10px; 
+    font-size: 24px; 
+    border-radius: 50%;
+    border: 1px solid #f56692;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+.home h1{
+    font-size: 30px;
+    line-height: 40px;
+}
+.links a:hover {
+    background-color: #f56692; 
+    color: white;
+}
+/* .cv .btn {
+    position: relative;
+}
+.cv .btn i{
+    background-color: #f56692;
+    padding: 11px;
+    border-radius: 50px;
+    font-size: 18px;
+    position: absolute;
+    left: 108px;
+    top: -1px;
+    
+} */
+
+
+.hover-effect {
+    background: linear-gradient(to left, transparent 50%, #f56692 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+    border: 1px solid #f56692;
+    color: #f56692;
+    overflow: hidden;
+}
+
+.hover-effect:hover {
+    background-position: left bottom;
+    color: white;
+}
+
+.btn-text {
+    display: inline-block;
+    padding-right: 20px; /* Adjust as needed */
+}

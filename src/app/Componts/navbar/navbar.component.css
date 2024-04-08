@@ -1,0 +1,47 @@
+.ow{
+   position: fixed;
+   right: 30px;
+   top: 125px;
+}
+.col {
+    margin-top: 20px; 
+    padding: 1px;
+    
+    
+}
+.active{
+    background-color:#f56692 !important;
+    border: 1px solid #f56692;
+}
+
+.col button{
+    color: #6c7983;  
+    margin: 0 10px; 
+    font-size: 24px; 
+    border-radius: 50%;
+    /* border: 1px solid #6c7983; */
+    padding: 15px;
+   
+
+    background-color: #454e56;
+
+}
+.col button a {
+    text-decoration: none;
+    color: white; 
+}
+
+
+/* .active{
+    background-color:#f56692;
+}
+.highlighted {
+    
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+   background-color: #f56692;
+    font-size: 24px; 
+    border-radius: 50%;
+   
+  } */

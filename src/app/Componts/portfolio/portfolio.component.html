@@ -1,0 +1,50 @@
+<div class="protofilo" >
+    <div class="title position-relative d-flex justify-content-center align-items-center">
+        <h1 class="m-0">My <span>PORTFOLIO</span></h1>
+        <h2 class="m-0 position-absolute">My<span>PORTFOLIO</span></h2>
+    </div>
+</div>
+<div class="filter  d-flex justify-content-around  " style="margin-top: 150px; " >
+
+    <div class="select" >
+        <input [(ngModel)]="searchItem" class="form-control" (input)="search()" placeholder="Search"/>
+
+        
+          </div>
+          <div class="select-wrapper">
+            <select [(ngModel)]="selectedCategory" class="custom-select" aria-label="Select category" (change)="filterByCategory()">
+              <option value="All">All </option>
+              <option *ngFor="let option of options" [value]="option.catId">{{option.Cat}}</option>
+            </select>
+          </div>
+          
+         
+    
+</div>
+    
+  
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top: 100px;">
+        <ng-container *ngFor="let project of projects">
+      <div class="col" [style.display]="(project.visiable==true)?'block':'none'">
+        <div class="card h-100"style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); background-color: #f8f8f8; border-radius: 15px; padding: 15px;">
+          <img [src]="project.image" class="card-img-top " style="width: 100%; height: 300px;" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">{{project.title}}</h5>
+            <p class="card-text desc">{{project.description}}</p>
+            <a href="{{project.linkgithub}}" target="_blank" class="fab fa-github"></a>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+    </div>
+  </div>
+  
+  
+
+  
+  
+  
+
+  
+    
