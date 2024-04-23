@@ -19,11 +19,12 @@ export class PORTFOLIOComponent {
       { id: 5, visiable: true, linkgithub: "https://github.com/fatmaelshemy/Ecommerce", title: "E-commerce Website", catId: 2, image: "assets/images/img2.PNG", description: "An extensive website built with HTML, CSS, JavaScript, jQuery, and Bootstrap, featuring multiple shopping pages, product details, categories, payment functionalities, and a shopping cart." },
       { id: 6, visiable: true, linkgithub: "https://github.com/fatmaelshemy/Portfolio", title: "PORTFOLIO Website", catId: 4, image: "assets/images/img4.PNG", description: "My PORTFOLIO Using Angular Framework" },
       { id: 7, visiable: true, linkgithub: "https://github.com/fatmaelshemy/watchProject", title: "Watch Project", catId: 2, image: "assets/images/img3.PNG", description: "This Project To Client In Platform  for selling watches featuring a homepage, contact page with WhatsApp integration, shop page, testimonials, and user authentication using HTML, CSS, JavaScript, jQuery, and Bootstrap." },
+      { id: 8, visiable: true, linkgithub: "https://github.com/fatmaelshemy/EcommerceWithAngular", title: "E-commerce Website using Angular For Users and Admin", catId: 4, image: "assets/images/img11.PNG", description: "ECommerce website For Admin To Add , View , Update Product using Fake Api and another Project for user to buy product ." },
+      { id: 9, visiable: true, linkgithub: "https://github.com/fatmaelshemy/MovieApp", title: "Movie Website using React with movie API ", catId: 7, image: "assets/images/img33.PNG", description: "Movie website using react to display all movie with pagination , change lang using context , register form using formik ,add to favorite using regux and apply search in this project" },
+      { id: 10, visiable: true, linkgithub: "https://github.com/fatmaelshemy/Bank-management-system", title: "Bank Management System", catId: 6, image: "assets/images/img5.png", description: "My inaugural project employing C++ and object-oriented programming (OOP) concepts, leveraging queue data structures for bank queue management and priority queues for handling special cases." },
+      { id: 11, visiable: true, linkgithub: "https://github.com/fatmaelshemy/menu", title: "Menu Project", catId: 2, image: "assets/images/img6.PNG", description: "This Project To Client In platform for creating food menus, offering features such as sliders, filters, and support for both Arabic and English languages, implemented using HTML, CSS, and JavaScript." },
 
-      { id: 8, visiable: true, linkgithub: "https://github.com/fatmaelshemy/Bank-management-system", title: "Bank Management System", catId: 6, image: "assets/images/img5.png", description: "My inaugural project employing C++ and object-oriented programming (OOP) concepts, leveraging queue data structures for bank queue management and priority queues for handling special cases." },
-      { id: 9, visiable: true, linkgithub: "https://github.com/fatmaelshemy/menu", title: "Menu Project", catId: 2, image: "assets/images/img6.PNG", description: "This Project To Client In platform for creating food menus, offering features such as sliders, filters, and support for both Arabic and English languages, implemented using HTML, CSS, and JavaScript." },
-
-      { id: 10, visiable: true, linkgithub: "https://github.com/fatmaelshemy/store-manegment-system", title: "Store Management System", catId: 6, image: "assets/images/img9.PNG", description: "My introductory project in C programming, focusing on category and product management, including functionalities for updating, deleting, and purchasing products. It generates invoices with detailed order information." },
+      { id: 12, visiable: true, linkgithub: "https://github.com/fatmaelshemy/store-manegment-system", title: "Store Management System", catId: 6, image: "assets/images/img9.PNG", description: "My introductory project in C programming, focusing on category and product management, including functionalities for updating, deleting, and purchasing products. It generates invoices with detailed order information." },
     ];
   }
   options: any = [
@@ -32,7 +33,8 @@ export class PORTFOLIOComponent {
     { Cat: "MVC", catId: 3 },
     { Cat: "Angular", catId: 4 },
     { Cat: "WebAPI", catId: 5 },
-    { Cat: "C&C++", catId: 6 }
+    { Cat: "C&C++", catId: 6 },
+    { Cat: "React", catId: 7 },
   ]
   searchItem: string = '';
   search() {
